@@ -13,7 +13,7 @@ class BProjectActivity : AppCompatActivity() {
 
         var button : Button = findViewById<Button>(R.id.button)
         button.setOnClickListener {
-            Toast.makeText(AProjectActivity@ this, "A Project", Toast.LENGTH_SHORT).show()
+            Toast.makeText(BProjectActivity@ this, "B Project", Toast.LENGTH_SHORT).show()
         }
     }
 }
